@@ -26,3 +26,18 @@ section > .logo{
 	font-family:'Noto Sans', sans-serif;
 	color:#dedede;
 }
+
+
+
+@media screen and (min-width: 768px) {
+	section > .logo{
+		width:35%;
+	}	
+	.logo+p{
+		margin-top:40px;
+		font-size:7vw;
+		font-family:'Noto Sans', sans-serif;
+		color:#dedede;
+	}
+	
+}
